@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Plumia</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="game_start_toolbar_title">Vamos respirar!</string>
+    <string name="game_start_description">Nosso jogo vai ajudar voce retomar o seu ar</string>
+    <string name="game_start_button">Começar o jogo!</string>
+
+    <string name="game_playing_description">Contagem: 1,2,3,4</string>
+    <string name="game_playing_end_button">Terminar</string>
+
+</resources>
