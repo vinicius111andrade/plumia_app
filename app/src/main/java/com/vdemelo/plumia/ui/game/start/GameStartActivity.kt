@@ -1,10 +1,14 @@
 package com.vdemelo.plumia.ui.game.start
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
 import com.vdemelo.plumia.databinding.ActivityGameStartBinding
+import com.vdemelo.plumia.route.navigateToContacts
+import com.vdemelo.plumia.route.navigateToGamePlaying
 import com.vdemelo.plumia.sdk.setupToolbar
+import com.vdemelo.plumia.ui.game.playing.GamePlayingActivity
 
 class GameStartActivity : AppCompatActivity() {
 
@@ -23,16 +27,8 @@ class GameStartActivity : AppCompatActivity() {
     }
 
     private fun setButtonActions() {
-        binding.startGameButton.setOnClickListener { view ->
-            Snackbar.make(view, "Navigate to game", Snackbar.LENGTH_SHORT)
-                .setAction("Action", null).show()
-        }
-
-        binding.contactButton.setOnClickListener { view ->
-            Snackbar.make(view, "Navigate to psi contacts", Snackbar.LENGTH_SHORT)
-                .setAction("Action", null).show()
-        }
+        binding.startGameButton.setOnClickListener { navigateToGamePlaying() }
+        binding.contactButton.setOnClickListener { navigateToContacts() }
     }
-
 
 }
