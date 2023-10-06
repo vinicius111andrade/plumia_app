@@ -12,6 +12,7 @@
     <string name="game_start_description">Nosso jogo vai ajudar voce retomar o seu ar</string>
     <string name="game_start_button">Começar o jogo!</string>
 
+    <string name="game_playing_toolbar_title">Respire</string>
     <string name="game_playing_description">Contagem: 1,2,3,4</string>
     <string name="game_playing_end_button">Terminar</string>
 

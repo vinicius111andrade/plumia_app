@@ -29,6 +29,13 @@
                 android:value="" />
         </activity>
 
+        <activity
+            android:name=".ui.game.playing.GamePlayingActivity"
+            android:exported="true"
+            android:label="@string/game_playing_toolbar_title"
+            android:theme="@style/Theme.Plumia.NoActionBar">
+        </activity>
+
     </application>
 
 </manifest>
