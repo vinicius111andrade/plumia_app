@@ -3,7 +3,6 @@ package com.vdemelo.plumia.route
 import android.content.Intent
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.material.snackbar.Snackbar
 import com.vdemelo.plumia.ui.game.playing.GamePlayingActivity
 
 fun AppCompatActivity.navigateToGameStart() {

@@ -2,9 +2,8 @@ package com.vdemelo.plumia.ui.game.playing
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.google.android.material.snackbar.Snackbar
 import com.vdemelo.plumia.databinding.ActivityGamePlayingBinding
-import com.vdemelo.plumia.route.navigateToGamePlaying
+import com.vdemelo.plumia.route.navigateToIndications
 import com.vdemelo.plumia.sdk.setupToolbar
 
 class GamePlayingActivity : AppCompatActivity() {
@@ -24,12 +23,7 @@ class GamePlayingActivity : AppCompatActivity() {
     }
 
     private fun setButtonActions() {
-        binding.startGameButton.setOnClickListener { navigateToGamePlaying() }
-
-        binding.contactButton.setOnClickListener { view ->
-            Snackbar.make(view, "Navigate to psi contacts", Snackbar.LENGTH_SHORT)
-                .setAction("Action", null).show()
-        }
+        binding.endGameButton.setOnClickListener { navigateToIndications() }
     }
 
 }
